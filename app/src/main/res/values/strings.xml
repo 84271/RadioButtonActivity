@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RadioButtonActivity</string>
+    <string name="he">he</string>
+    <string name="she">she</string>
+    <string name="others">others</string>
+    <string name="Enter_Gender">Enter_Gender</string>
+</resources>
