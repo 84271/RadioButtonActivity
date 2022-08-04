@@ -15,11 +15,10 @@ class MainActivity : AppCompatActivity() {
     lateinit var rbShe:RadioButton
     lateinit var rbOther:RadioButton
     lateinit var etOtherName: EditText
-    lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_main)
          rbHe = findViewById(R.id.rbHe)
         rbShe = findViewById(R.id.rbShe)
         rbOther = findViewById(R.id.rbOther)
